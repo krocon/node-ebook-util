@@ -1,0 +1,43 @@
+{
+  "name": "node-ebook-util",
+  "version": "0.0.2",
+  "type": "module",
+  "description": "Reorganization (grouping) of ebook files and creation of cover thumbs files",
+  "keywords": [
+    "Cover",
+    "Thumb",
+    "jpg",
+    "CBR",
+    "CBZ",
+    "CB7",
+    "ebook",
+    "image",
+    "generator"
+  ],
+  "author": {
+    "name": "Marc Kronberg",
+    "email": "krocon@gmail.com",
+    "url": "https://gui.expert/"
+  },
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "node postinstall.mjs"
+  },
+  "files": [
+    "index.js",
+    "modules/regroup.mjs",
+    "!test"
+  ],
+  "dependencies": {
+    "ebook-cover-generator": "0.0.23",
+    "node-regroup-ebooks": "0.0.6",
+    "npmlog": "^4.1.2"
+  },
+  "readmeFilename": "README.md",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krocon/node-ebook-util.git"
+  }
+}
