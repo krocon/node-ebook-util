@@ -1,6 +1,6 @@
 {
   "name": "node-ebook-util",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "description": "Reorganization (grouping) of ebook files and creation of cover thumbs files",
   "keywords": [
@@ -30,8 +30,8 @@
     "!test"
   ],
   "dependencies": {
-    "ebook-cover-generator": "0.0.23",
-    "node-regroup-ebooks": "0.0.6",
+    "ebook-cover-generator": "0.0.25",
+    "node-regroup-ebooks": "0.0.8",
     "npmlog": "^4.1.2"
   },
   "readmeFilename": "README.md",
