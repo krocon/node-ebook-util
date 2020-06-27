@@ -4,8 +4,8 @@ import {group} from "node-regroup-ebooks";
 import {extractCoverGlobPromise} from "ebook-cover-generator";
 import log from "npmlog";
 
-const sourceDirs = ['e:/leeching/comics'];
-const targetDir = 'e:/out/__comics_out';
+const sourceDirs = ['/comics'];
+const targetDir = '/comics/out';
 const gmExecutable = 'c:\\Program Files\\GraphicsMagick-1.3.34-Q16\\gm.exe';
 
 async function go() {
